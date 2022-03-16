@@ -1,0 +1,322 @@
+@import url("../webfonts/CantataOne_Regular/stylesheet.css");
+@import url("../webfonts/Urbanist_VariableFont_wght/stylesheet.css");
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+/* CSS Document */
+
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+
+header,nav,main, section, footer{
+	margin: 0 auto;
+}
+
+
+header {
+	background-color: #283618;
+	color: white;
+	height: 100px;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+nav{
+	height: auto;	
+	width: auto;
+	background-color: #FEFAE0 ;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+nav ul li {
+    list-style-type: none;
+    width: 100px;
+    background-color: #BC6C25;
+    margin-left: 10PX;
+    margin-top: 10PX;
+    margin-right: 10PX;
+    padding: 10px;
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+	border-radius: 5px 
+}
+
+main section form {
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    background-color: #606C38;
+    -webkit-box-shadow: 2px 2px 20px;
+    box-shadow: 2px 2px 20px;
+}
+
+h3 {
+    font-size: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+main{
+	width: 100%;
+	height: auto;
+	background-color: #DDA15E;
+	padding: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+
+#form1 {
+    width: 50%;
+    height: auto;
+    font-size: 0px;
+	background-color: #606C38;
+}
+
+section{
+	color:#000000;
+	width: 70%;
+	height: auto;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #FEFAE0;
+	border-radius: 5px;
+}
+
+#img_1 {
+    margin: 30px;
+    width: 50%;
+	height: auto;
+	border-left: 10px solid #606C38;
+	border-right: 5px solid #606C38;
+	border-bottom: 20px solid #606C38;
+	border-top: 5px solid #606C38;
+}
+
+section.tabla3{
+		height: auto;
+		}
+
+table,th,td{
+			border-radius: 10px;
+			padding: 10px;
+		}
+		th{
+			background-color: #606C38;		
+		}
+		td{
+			background-color:#DDA15E;
+		}
+		
+th:nth-child(even),td:nth-child(even){
+			background-color: #606C38;
+		}
+		th:nth-child(odd),td:nth-child(odd){
+			background-color:#DDA15E;
+		}
+
+		table{
+			border-radius: 5px;
+			width: 50%;
+			
+		}
+		th,td{
+			text-align: left;
+			padding: 10px;
+		}
+
+a {
+    color: #DDA15E;		
+}
+a:link{
+	color: #283618;
+}
+a:visited{
+	color: #606C38;
+}
+a:hover{
+	color: #DDA15E;
+	background-color: transparent;
+}
+a:active{
+	color: #74440F;
+}
+
+.imagen_1 {
+    width: 20%;
+    padding: 10px;
+    height: 25%;
+	margin:0;
+}
+
+#filter_gray {
+    filter: grayscale(100%);
+}
+#filter_blur {
+    filter: blur(2px);
+}
+#filter_brillo {
+    filter: brightness(90%);
+}
+#filter_contrast {
+    filter: contrast(100%);
+}
+#filter_opacidad {
+    filter: opacity(50%);
+}
+#filter_saturacion {
+    filter: saturate(50%);
+}
+#filter_sepia {
+    filter: sepia(100%);
+}
+
+.size_video {
+    width: 30%;
+}
+.size_video2 {
+    width: 50%;
+    height: 50%;
+}
+
+footer {
+	background-color: #283618;
+	color: white;
+	font-size: 12px;
+	height: 80px; 
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#form1 label {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 20px 30px;
+    margin-top: px;
+}
+#form1 p {
+    padding: 20px;
+}
+#form1 table {
+    padding: 20px;
+}
+main section p {
+    padding: 20px;
+}
+
+input[type=text], input[type=password]{
+	width: 30%;
+	padding: 5px;
+	margin:8px 0;
+	border: 3px solid #283618;;
+	border-radius: 10px;
+	color: maroon;
+}
+
+input[type=submit]{
+	width: 10%;
+	padding: 5px;
+	border-radius: 10px;
+	margin-left: 20px;
+	background-color: #283618;
+	color: #FEFAE0;
+	cursor: pointer;
+}
+input[type=text]:focus{
+	background-color: #FEFAE0;
+	border: 2px solid #283618;
+}
+input[type=submit]:hover{
+	background-color: #FEFAE0;
+	color: #BC6C25;
+}
+textarea{
+	width: 50%;
+	height: 50px;
+	padding: 12px 20px;
+	color: #BC6C25;
+	border-radius: 10px;
+	border:5px solid #283618;
+	resize:none;
+}
+select{
+	width: 20%;
+	padding: 16px 20px;
+	border:none;
+	border-radius:4px;
+	background-color: #F1F1F1;
+}
+
+main section h2 {
+    color: #606C38;
+}
+body main img {
+    margin-left: auto;
+    margin-right: auto;
+}
+main section h2 {
+    color: #283618;
+}
+.animate__animated.animate__backInLeft.animate__delay-5s .fuente_t2.animate__animated.animate__shakeY.animate__delay-2s {
+    font-family: droid-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+}
+.animate__animated.animate__backInLeft.animate__delay-5s .parrafo1 {
+    font-family: didact-gothic;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.fuente_t2_2.animate__animated.animate__flipInX.animate__fast.animate__delay-3s {
+    font-family: "CantataOne Regular";
+}
+.parrafo2 {
+    font-family: "Urbanist VariableFont wght";
+}
+.fuente_t2_3.animate__animated.animate__rotateIn.animate__delay-3s.animate__repeat-3 {
+	font-family: 'Cinzel', serif;
+}
+.parrafo3 {
+	font-family: 'Source Code Pro', monospace;
+}
+.fuente_t2_4.animate__animated.animate__bounceIn.animate__delay-3s.animate__infinite {
+font-family: 'Kaushan Script', cursive;
+}
+.parrafo4 {
+font-family: 'Fredoka', sans-serif;
+}
+.fuente_principal.animate__animated.animate__bounce.animate__delay-3s {
+    font-family: rammetto-one;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    text-shadow: 0px 4px 11px #161E0C;
+    color: #FEFAE0;
+}
+.animate__animated.animate__fadeInLeft.animate__delay-3s .fuente_t2_5.animate__animated.animate__jello.animate__delay-5s.animate__repeat-3 {
+    font-family: mrs-sheppards;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+.animate__animated.animate__fadeInLeft.animate__delay-3s ul .parrafo5 {
+    font-family: didact-gothic;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.animate__animated.animate__fadeInLeft.animate__delay-3s .parrafo5.animate__animated.animate__fadeIn.animate__desl.animate__delay-5s {
+    font-family: didact-gothic;
+    font-style: normal;
+    font-weight: 400;
+}

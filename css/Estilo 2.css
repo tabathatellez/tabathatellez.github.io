@@ -1,0 +1,59 @@
+/* CSS Document */
+
+
+*{
+	margin:0;
+	box-sizing:border-box;
+}
+
+header,nav,main, section, footer{
+	margin: 0 auto;
+}
+
+
+header {
+	background-color: #283618;
+	color: white;
+	height: 100px;
+	width: 100%;
+	padding: 20px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+main{
+	width: 100%;
+	height: auto;
+	background-color: #DDA15E;
+	padding: 20px;
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+
+section{
+	color:#000000;
+	width: 70%;
+	height: auto;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #FEFAE0;
+	border-radius: 2px;
+}
+
+main section h2 {
+    color: #283618;
+}
+
+footer {
+	background-color: #283618;
+	color: white;
+	font-size: 12px;
+	height: 80px; 
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
